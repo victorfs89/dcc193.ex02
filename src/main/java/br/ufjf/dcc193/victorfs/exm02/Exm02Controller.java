@@ -1,10 +1,15 @@
 package br.ufjf.dcc193.victorfs.exm02;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class Exm02Controller {
+    @Autowired
+    private PessoaService ps;
     
     @RequestMapping ({"", "index.html"})
     public String home(){
@@ -21,6 +26,16 @@ public class Exm02Controller {
         ModelAndView mv = new ModelAndView();
         mv.setViewName("form/resultado");
         mv.addObject("pessoa", p);
+        return mv;
+    }
+
+    @RequestMapping ({"pessoas.html"})
+    public ModelAndView listaPessoas(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("pessoas");
+        List<Pessoa> lp = ps.listaPessoas();
+
+        mv.addObject("pessoas", lp);
         return mv;
     }
 }

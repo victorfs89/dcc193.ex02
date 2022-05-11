@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Tue May 10 22:13:55 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0180-b0ad-ff6c-00000f707020 
-on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc 
+Tue May 10 22:37:48 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0180-b0c3-dcc1-00000e0f85d0 
+on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
 Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Ubuntu
 java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
@@ -12,9 +12,9 @@ os.version=5.13.0-39-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue May 10 22:17:03 BRT 2022:
-Shutting down instance a816c00e-0180-b0ad-ff6c-00000f707020 on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc 
-Tue May 10 22:17:04 BRT 2022 Thread[Thread-19,5,main] Cleanup action starting
+Tue May 10 22:39:05 BRT 2022:
+Shutting down instance a816c00e-0180-b0c3-dcc1-00000e0f85d0 on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Tue May 10 22:39:05 BRT 2022 Thread[Thread-19,5,main] Cleanup action starting
 ERROR XBM0I: Directory database/teste.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -34,7 +34,7 @@ ERROR XBM0I: Directory database/teste.db cannot be removed.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Cleanup action completed
-Tue May 10 22:17:04 BRT 2022 Thread[Thread-19,5,main] Cleanup action starting
+Tue May 10 22:39:05 BRT 2022 Thread[Thread-19,5,main] Cleanup action starting
 ERROR XBM0I: Directory database/teste.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -55,9 +55,121 @@ ERROR XBM0I: Directory database/teste.db cannot be removed.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 Cleanup action completed
 ----------------------------------------------------------------
-Tue May 10 22:17:05 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 888c4022-0180-b0ad-ff6c-00000f707020 
-on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc 
+Tue May 10 22:39:06 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance d89d8024-0180-b0c3-dcc1-00000e0f85d0 
+on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/ice/DCC193/exm02
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 10 22:39:45 BRT 2022:
+Shutting down instance d89d8024-0180-b0c3-dcc1-00000e0f85d0 on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Tue May 10 22:39:45 BRT 2022 Thread[Thread-34,5,main] Cleanup action starting
+ERROR XBM0I: Directory database/teste.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Cleanup action completed
+Tue May 10 22:39:45 BRT 2022 Thread[Thread-34,5,main] Cleanup action starting
+ERROR XBM0I: Directory database/teste.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Cleanup action completed
+----------------------------------------------------------------
+Tue May 10 22:39:46 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance b9810038-0180-b0c3-dcc1-00000e0f85d0 
+on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/ice/DCC193/exm02
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 10 22:42:44 BRT 2022:
+Shutting down instance b9810038-0180-b0c3-dcc1-00000e0f85d0 on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Tue May 10 22:42:45 BRT 2022 Thread[Thread-49,5,main] Cleanup action starting
+ERROR XBM0I: Directory database/teste.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Cleanup action completed
+Tue May 10 22:42:45 BRT 2022 Thread[Thread-49,5,main] Cleanup action starting
+ERROR XBM0I: Directory database/teste.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Cleanup action completed
+----------------------------------------------------------------
+Tue May 10 22:42:46 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 9ac8804c-0180-b0c3-dcc1-00000e0f85d0 
+on database directory /ice/DCC193/exm02/database/teste.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
 Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Ubuntu
 java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
