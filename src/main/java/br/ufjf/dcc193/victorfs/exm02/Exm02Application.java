@@ -11,6 +11,13 @@ public class Exm02Application {
 		ConfigurableApplicationContext ctx = SpringApplication.run(Exm02Application.class, args);
 
 		 PessoaRepository rep =  ctx.getBean(PessoaRepository.class);
+
+		 rep.save(new Pessoa("Fulano", 18));
+		 rep.save(new Pessoa("Beltrano", 26));
+		 rep.save(new Pessoa("Ciclano", 24));
+
+		 System.out.println(rep.findAll().toString());
+
 	}
 
 }

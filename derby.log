@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Tue May 10 21:50:40 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0180-b098-b932-00000f3e3bb0 
-on database directory memory:/ice/DCC193/exm02/f0fdbf21-7a4e-437f-88c8-2d1d10107be1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc 
+Tue May 10 21:57:33 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0180-b09f-05aa-00000e395660 
+on database directory memory:/ice/DCC193/exm02/18042739-cde3-488d-b2c8-7a9a36250531 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
 Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Ubuntu
 java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
@@ -12,5 +12,82 @@ os.version=5.13.0-39-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue May 10 21:51:15 BRT 2022:
-Shutting down instance a816c00e-0180-b098-b932-00000f3e3bb0 on database directory memory:/ice/DCC193/exm02/f0fdbf21-7a4e-437f-88c8-2d1d10107be1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc 
+Tue May 10 21:58:13 BRT 2022:
+Shutting down instance a816c00e-0180-b09f-05aa-00000e395660 on database directory memory:/ice/DCC193/exm02/18042739-cde3-488d-b2c8-7a9a36250531 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+----------------------------------------------------------------
+Tue May 10 21:58:15 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance eaa980c4-0180-b09f-05aa-00000e395660 
+on database directory memory:/ice/DCC193/exm02/f7daf092-6237-40f0-aa0d-b752034335f3 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/ice/DCC193/exm02
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 10 21:58:17 BRT 2022:
+Shutting down instance eaa980c4-0180-b09f-05aa-00000e395660 on database directory memory:/ice/DCC193/exm02/f7daf092-6237-40f0-aa0d-b752034335f3 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+----------------------------------------------------------------
+Tue May 10 21:58:18 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 0d95417a-0180-b09f-05aa-00000e395660 
+on database directory memory:/ice/DCC193/exm02/d22019ce-20fb-42a5-8b9c-4919fe9ff727 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/ice/DCC193/exm02
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 10 21:59:06 BRT 2022:
+Shutting down instance 0d95417a-0180-b09f-05aa-00000e395660 on database directory memory:/ice/DCC193/exm02/d22019ce-20fb-42a5-8b9c-4919fe9ff727 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+----------------------------------------------------------------
+Tue May 10 21:59:07 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 90da0230-0180-b09f-05aa-00000e395660 
+on database directory memory:/ice/DCC193/exm02/900aff6a-a971-4746-9743-fbde6cbadb32 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/ice/DCC193/exm02
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 10 21:59:44 BRT 2022:
+Shutting down instance 90da0230-0180-b09f-05aa-00000e395660 on database directory memory:/ice/DCC193/exm02/900aff6a-a971-4746-9743-fbde6cbadb32 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+----------------------------------------------------------------
+Tue May 10 21:59:45 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance f477c2e6-0180-b09f-05aa-00000e395660 
+on database directory memory:/ice/DCC193/exm02/9ca53729-99a1-4616-aae4-00c275970e69 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/ice/DCC193/exm02
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 10 22:00:52 BRT 2022:
+Shutting down instance f477c2e6-0180-b09f-05aa-00000e395660 on database directory memory:/ice/DCC193/exm02/9ca53729-99a1-4616-aae4-00c275970e69 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+----------------------------------------------------------------
+Tue May 10 22:00:53 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance b86e839c-0180-b09f-05aa-00000e395660 
+on database directory memory:/ice/DCC193/exm02/0e79e9b7-79d5-4e0e-8a91-bcf66ec16ddf with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6a6824be 
+Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/ice/DCC193/exm02
+os.name=Linux
+os.arch=amd64
+os.version=5.13.0-39-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
