@@ -20,11 +20,13 @@ public class PessoaService {
         rep.save(p);
     }
 
-    void editarPessoa(Long id, String nome, Integer idade){
+    Pessoa retornarPessoa(Long id){
         Pessoa p = rep.getById(id);
-        p.setNome(nome);
-        p.setIdade(idade);
 
+        return p;
+    }
+
+    void atualizaPessoa(Pessoa p){
         rep.save(p);
     }
 }

@@ -51,4 +51,24 @@ public class Exm02Controller {
         }       
         return mv;
     }
+
+    @RequestMapping ("editar.html")
+    public ModelAndView editarPessoa(Long id){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("editar");
+
+        Pessoa p = ps.retornarPessoa(id);
+
+        mv.addObject("pessoa", p);
+        return mv;
+    }
+
+    @RequestMapping ({"resultado2.html"})
+    public ModelAndView resultado2(Pessoa p){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("form/resultado2");
+        ps.atualizaPessoa(p);
+        mv.addObject("pessoa", p);
+        return mv;
+    }
 }
