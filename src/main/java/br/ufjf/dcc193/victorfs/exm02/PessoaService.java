@@ -15,4 +15,8 @@ public class PessoaService {
     void removePessoa(Long id){
         rep.deleteById(id);
     }
+
+    void adiconaPessoa(Pessoa p){
+        rep.save(p);
+    }
 }

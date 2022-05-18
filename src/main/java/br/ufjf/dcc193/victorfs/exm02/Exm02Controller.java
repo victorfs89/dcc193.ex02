@@ -42,13 +42,9 @@ public class Exm02Controller {
     @RequestMapping ("remover.html")
     public ModelAndView removePessoa(Long id){
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("pessoas");
+        mv.setViewName("redirect:pessoas.html");
 
-        ps.removePessoa(id);
-
-        List<Pessoa> lp = ps.listaPessoas();
-        mv.addObject("pessoas", lp);
-        
+        ps.removePessoa(id);        
         return mv;
     }
 }
