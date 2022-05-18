@@ -38,4 +38,17 @@ public class Exm02Controller {
         mv.addObject("pessoas", lp);
         return mv;
     }
+
+    @RequestMapping ("remover.html")
+    public ModelAndView removePessoa(Long id){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("pessoas");
+
+        ps.removePessoa(id);
+
+        List<Pessoa> lp = ps.listaPessoas();
+        mv.addObject("pessoas", lp);
+        
+        return mv;
+    }
 }

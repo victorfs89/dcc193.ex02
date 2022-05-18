@@ -13,7 +13,7 @@
     
     <ul>
         <c:forEach var="pessoa" items="${pessoas}">
-            <li>[${pessoa.id}] Nome: ${pessoa.nome} - ${pessoa.idade} anos.</li>
+            <li>[${pessoa.id}] Nome: ${pessoa.nome} - ${pessoa.idade} anos <a href="remover.html?id=${pessoa.id}">Remover</a></li>
         </c:forEach>
     </ul>
 </body>

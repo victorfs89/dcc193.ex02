@@ -11,4 +11,8 @@ public class PessoaService {
     List<Pessoa> listaPessoas(){
         return rep.findAll();
     }
+
+    void removePessoa(Long id){
+        rep.deleteById(id);
+    }
 }
