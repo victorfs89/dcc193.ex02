@@ -19,4 +19,12 @@ public class PessoaService {
     void adiconaPessoa(Pessoa p){
         rep.save(p);
     }
+
+    void editarPessoa(Long id, String nome, Integer idade){
+        Pessoa p = rep.getById(id);
+        p.setNome(nome);
+        p.setIdade(idade);
+
+        rep.save(p);
+    }
 }

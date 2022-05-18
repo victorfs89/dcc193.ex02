@@ -9,6 +9,8 @@
 </head>
 <body>
     <h1>Exemplo 02: Resultado</h1>
-    <p>Olá ${pessoa.nome}, você tem ${pessoa.idade} anos.</p>
+    <p>ID [${pessoa.id}] ${pessoa.nome}, ${pessoa.idade} anos foi inserido</p>
+
+    <a href="pessoas.html">Lista de Pessoas</a>
 </body>
 </html>

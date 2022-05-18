@@ -25,6 +25,7 @@ public class Exm02Controller {
     public ModelAndView resultado(Pessoa p){
         ModelAndView mv = new ModelAndView();
         mv.setViewName("form/resultado");
+        ps.adiconaPessoa(p);
         mv.addObject("pessoa", p);
         return mv;
     }
@@ -43,8 +44,11 @@ public class Exm02Controller {
     public ModelAndView removePessoa(Long id){
         ModelAndView mv = new ModelAndView();
         mv.setViewName("redirect:pessoas.html");
-
-        ps.removePessoa(id);        
+        try {
+            ps.removePessoa(id); 
+        } catch (Exception e) {
+            
+        }       
         return mv;
     }
 }
